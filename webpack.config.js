@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: 'https://raw.githubusercontent.com/umeshsati54/umeshsati54.github.io/master/src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'public')
