@@ -10,8 +10,8 @@ import {Webcam} from './webcam';
 import {isMobile} from './utils';
 
 const MODEL_PATH_PREFIX = 'https://storage.googleapis.com/tfjs-models/savedmodel/';
-const MODEL_FILENAME = 'https://github.com/umeshsati54/umeshsati54.github.io/blob/master/public/a/tensorflowjs_model.pb';
-const WEIGHTS_FILENAME = 'https://github.com/umeshsati54/umeshsati54.github.io/blob/master/public/a/weights_manifest.json';
+const MODEL_FILENAME = 'https://raw.githubusercontent.com/umeshsati54/umeshsati54.github.io/master/public/a/tensorflowjs_model.pb';
+const WEIGHTS_FILENAME = 'https://raw.githubusercontent.com/umeshsati54/umeshsati54.github.io/master/public/a/weights_manifest.json';
 const INPUT_NODE_NAME = 'input';
 const OUTPUT_NODE_NAME = 'final_result';
 
